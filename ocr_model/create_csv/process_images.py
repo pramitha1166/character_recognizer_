@@ -14,7 +14,7 @@ def process_image(path):
         data_list.append(hex_to_float(hex_val))
     
     np_data_list = np.array(data_list)
-    print(np_data_list)
+    #print(np_data_list)
     return np_data_list
 
 
@@ -33,7 +33,7 @@ def rgb_to_hex(data, i):
 def hex_to_float(hex_val):
     return float(int(str(hex_val)[1:], 16)/100000000)
 
-process_image('images/අ1_1.pnglow.png')
+#process_image('images/අ1_1.pnglow.png')
 
 # image = Image.open('create_csv/images/අ1_1.pnglow.png')
 
