@@ -1,11 +1,11 @@
 from PIL import Image
 
-image = Image.open('image.png')
+image = Image.open('create_csv/images/අ1_1.pnglow.png')
 
 image = image.resize((64,64), Image.ANTIALIAS)
 
-image.save('image.png')
-image = Image.open('image.png')
+image.save('අ1_1.pnglow.png')
+image = Image.open('අ1_1.pnglow.png')
 
 print(image.mode)
 print(image.getpixel((10,20)))
